@@ -33,3 +33,7 @@ a,
     padding: 0 2rem;
   }
 }
+
+.current-step {
+  background-color: green !important;
+}
