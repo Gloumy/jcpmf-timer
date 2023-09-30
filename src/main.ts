@@ -20,6 +20,19 @@ import * as directives from 'vuetify/directives'
 const vuetify = createVuetify({
     components,
     directives,
+    theme: {
+        themes: {
+            'light': {
+                dark: false,
+                colors: {
+                    primary: '#86bc25',
+                    secondary: '#002d4e',
+                    background: '#858b91'
+                }
+            }
+
+        }
+    }
 })
 app.use(vuetify);
 

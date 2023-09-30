@@ -26,16 +26,19 @@ async function timer() {
 </script>
 
 <template>
-  <main>
-    <span>{{ mockCard.title }}</span>
-    <span>{{ currentStepCountdown }}</span>
+  <v-col cols="12" align="center" justify="center">
+    <h3>{{ mockCard.title }}</h3>
+    <span class="text-h5">{{ currentStepCountdown }}</span>
+
     <v-card v-for="step in mockCard.steps" :key="step.index" variant="tonal" class="pa-5"
       :class="currentStep == mockCard.steps.indexOf(step) ? 'current-step' : ''">
-      {{
-        step.index + 1
-      }}. {{ step.type }} - {{ step.duration }}s
+      <v-row>
+        <v-col>{{ step.index + 1 }}</v-col>
+        <v-col>{{ step.type }}</v-col>
+        <v-col>{{ step.duration }}</v-col>
+      </v-row>
     </v-card>
 
-    <v-btn :loading="currentStep != -1" @click="timer()">Start</v-btn>
-  </main>
+    <v-btn class="mt-4" color="secondary" :loading="currentStep != -1" @click="timer()">Start</v-btn>
+  </v-col>
 </template>

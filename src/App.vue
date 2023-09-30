@@ -3,11 +3,16 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header>
-    JCPMF Timer
-  </header>
+  <v-container fluid class="main" full-height>
+    <v-row justify="center" class="bg-primary">
+      <h2>JCPMF Timer</h2>
+      <v-divider></v-divider>
 
-  <RouterView />
+    </v-row>
+    <v-row>
+      <RouterView />
+    </v-row>
+  </v-container>
 </template>
 
 <style scoped></style>
