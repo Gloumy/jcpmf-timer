@@ -13,5 +13,9 @@ export const useCardsStore = defineStore('cards', () => {
     weeks.value = jsonConvert.deserializeArray(cards05, Week);
   }
 
-  return { weeks, initWeeks }
+  function selectCard(weekNumber: number, day: number) {
+    console.log('select')
+  }
+
+  return { weeks, initWeeks, selectCard }
 })
