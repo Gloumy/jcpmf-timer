@@ -1,13 +1,22 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { useSound } from '@vueuse/sound'
 import countdownSound from '@/assets/sounds/countdown-4.mp3'
 import { useCardsStore } from '@/stores/cards';
+import { useRouter } from 'vue-router';
 
 const cardsStore = useCardsStore();
 const currentStep = ref(-1);
 const currentStepCountdown = ref(0);
 const { play } = useSound(countdownSound)
+
+onMounted(() => {
+  if(cardsStore.selectedCard.week == 0){
+    const router = useRouter();
+    router.replace('/')
+  }
+})
+
 async function timer() {
   const maxIndex = cardsStore.selectedCard.steps.length - 1;
   for (let i = 0; i <= maxIndex; i++) {
