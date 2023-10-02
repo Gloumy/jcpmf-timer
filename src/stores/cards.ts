@@ -1,21 +1,34 @@
-import { ref, type Ref } from 'vue'
+import { computed, ref, type Ref } from 'vue'
 import { defineStore } from 'pinia'
 
 import { JsonConvert } from 'json2typescript'
 import { cards05 } from '@/data/cards05'
-import { Week } from '@/models/Card/Week'
+import { Card } from '@/models/Card/Card'
 
 export const useCardsStore = defineStore('cards', () => {
-  const weeks: Ref<Week[]> = ref([])
+  const cards: Ref<Card[]> = ref([])
+
+  const selectedCard: Ref<Card> = ref(new Card());
+
+  const weeksNumbers = computed(() => {
+    const numbers = cards.value.map(c => c.week);
+    return [...new Set(numbers)]
+  });
+
+  function cardsForWeek(week: number) {
+    return cards.value.filter(c => c.week == week)
+  }
 
   function initWeeks() {
     const jsonConvert: JsonConvert = new JsonConvert();
-    weeks.value = jsonConvert.deserializeArray(cards05, Week);
+    cards.value = jsonConvert.deserializeArray(cards05, Card);
   }
 
-  function selectCard(weekNumber: number, day: number) {
-    console.log('select')
+  function selectCard(week: number, day: number) {
+    const cardToSelect = cards.value.find(c => c.week == week && c.day == day)
+    if (cardToSelect)
+      selectedCard.value = cardToSelect;
   }
 
-  return { weeks, initWeeks, selectCard }
+  return { cards, weeksNumbers, selectedCard, cardsForWeek, initWeeks, selectCard }
 })
