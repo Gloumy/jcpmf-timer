@@ -23,7 +23,7 @@ export class Step {
         }
     }
     
-    displayDuration(): number {
-        return this.duration / 6000;
+    durationMilliseconds(): number {
+        return this.duration * 60000;
     }
 }

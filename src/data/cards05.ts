@@ -5,47 +5,47 @@ export const cards05 = [
         "steps": [
             {
                 "type": "E/S",
-                "duration": 60000
+                "duration": 2
             },
             {
                 "type": "C",
-                "duration": 6000
+                "duration": 1
             },
             {
                 "type": "M",
-                "duration": 6000
+                "duration": 1
             },
             {
                 "type": "C",
-                "duration": 24000
+                "duration": 4
             },
             {
                 "type": "M",
-                "duration": 12000
+                "duration": 2
             },
             {
                 "type": "C",
-                "duration": 30000
+                "duration": 5
             },
             {
                 "type": "M",
-                "duration": 18000
+                "duration": 3
             },
             {
                 "type": "C",
-                "duration": 36000
+                "duration": 6
             },
             {
                 "type": "M",
-                "duration": 18000
+                "duration": 3
             },
             {
                 "type": "C",
-                "duration": 24000
+                "duration": 4
             },
             {
                 "type": "RC",
-                "duration": 30000
+                "duration": 5
             }
         ]
     },
@@ -55,47 +55,47 @@ export const cards05 = [
         "steps": [
             {
                 "type": "E/S",
-                "duration": 60000
+                "duration": 10
             },
             {
                 "type": "C",
-                "duration": 6000
+                "duration": 1
             },
             {
                 "type": "M",
-                "duration": 6000
+                "duration": 1
             },
             {
                 "type": "C",
-                "duration": 24000
+                "duration": 4
             },
             {
                 "type": "M",
-                "duration": 12000
+                "duration": 2
             },
             {
                 "type": "C",
-                "duration": 30000
+                "duration": 5
             },
             {
                 "type": "M",
-                "duration": 18000
+                "duration": 3
             },
             {
                 "type": "C",
-                "duration": 36000
+                "duration": 6
             },
             {
                 "type": "M",
-                "duration": 18000
+                "duration": 3
             },
             {
                 "type": "C",
-                "duration": 24000
+                "duration": 4
             },
             {
                 "type": "RC",
-                "duration": 30000
+                "duration": 5
             }
         ]
     },
@@ -105,47 +105,47 @@ export const cards05 = [
         "steps": [
             {
                 "type": "E/S",
-                "duration": 60000
+                "duration": 10
             },
             {
                 "type": "C",
-                "duration": 6000
+                "duration": 1
             },
             {
                 "type": "M",
-                "duration": 6000
+                "duration": 1
             },
             {
                 "type": "C",
-                "duration": 24000
+                "duration": 4
             },
             {
                 "type": "M",
-                "duration": 12000
+                "duration": 2
             },
             {
                 "type": "C",
-                "duration": 30000
+                "duration": 5
             },
             {
                 "type": "M",
-                "duration": 18000
+                "duration": 3
             },
             {
                 "type": "C",
-                "duration": 36000
+                "duration": 6
             },
             {
                 "type": "M",
-                "duration": 18000
+                "duration": 3
             },
             {
                 "type": "C",
-                "duration": 24000
+                "duration": 4
             },
             {
                 "type": "RC",
-                "duration": 30000
+                "duration": 5
             }
         ]
     }, {
@@ -155,47 +155,47 @@ export const cards05 = [
         "steps": [
             {
                 "type": "E/S",
-                "duration": 60000
+                "duration": 10
             },
             {
                 "type": "C",
-                "duration": 6000
+                "duration": 1
             },
             {
                 "type": "M",
-                "duration": 6000
+                "duration": 1
             },
             {
                 "type": "C",
-                "duration": 24000
+                "duration": 4
             },
             {
                 "type": "M",
-                "duration": 12000
+                "duration": 2
             },
             {
                 "type": "C",
-                "duration": 30000
+                "duration": 5
             },
             {
                 "type": "M",
-                "duration": 18000
+                "duration": 3
             },
             {
                 "type": "C",
-                "duration": 36000
+                "duration": 6
             },
             {
                 "type": "M",
-                "duration": 18000
+                "duration": 3
             },
             {
                 "type": "C",
-                "duration": 24000
+                "duration": 4
             },
             {
                 "type": "RC",
-                "duration": 30000
+                "duration": 5
             }
         ]
     },
@@ -205,47 +205,47 @@ export const cards05 = [
         "steps": [
             {
                 "type": "E/S",
-                "duration": 60000
+                "duration": 10
             },
             {
                 "type": "C",
-                "duration": 6000
+                "duration": 1
             },
             {
                 "type": "M",
-                "duration": 6000
+                "duration": 1
             },
             {
                 "type": "C",
-                "duration": 24000
+                "duration": 4
             },
             {
                 "type": "M",
-                "duration": 12000
+                "duration": 2
             },
             {
                 "type": "C",
-                "duration": 30000
+                "duration": 5
             },
             {
                 "type": "M",
-                "duration": 18000
+                "duration": 3
             },
             {
                 "type": "C",
-                "duration": 36000
+                "duration": 6
             },
             {
                 "type": "M",
-                "duration": 18000
+                "duration": 3
             },
             {
                 "type": "C",
-                "duration": 24000
+                "duration": 4
             },
             {
                 "type": "RC",
-                "duration": 30000
+                "duration": 5
             }
         ]
     },
@@ -255,47 +255,47 @@ export const cards05 = [
         "steps": [
             {
                 "type": "E/S",
-                "duration": 60000
+                "duration": 10
             },
             {
                 "type": "C",
-                "duration": 6000
+                "duration": 1
             },
             {
                 "type": "M",
-                "duration": 6000
+                "duration": 1
             },
             {
                 "type": "C",
-                "duration": 24000
+                "duration": 4
             },
             {
                 "type": "M",
-                "duration": 12000
+                "duration": 2
             },
             {
                 "type": "C",
-                "duration": 30000
+                "duration": 5
             },
             {
                 "type": "M",
-                "duration": 18000
+                "duration": 3
             },
             {
                 "type": "C",
-                "duration": 36000
+                "duration": 6
             },
             {
                 "type": "M",
-                "duration": 18000
+                "duration": 3
             },
             {
                 "type": "C",
-                "duration": 24000
+                "duration": 4
             },
             {
                 "type": "RC",
-                "duration": 30000
+                "duration": 5
             }
         ]
     }
